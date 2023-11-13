@@ -1,0 +1,270 @@
+QWidget#settingswindow
+{
+    background-color: qlineargradient(x1:1, y1:0,
+            x2:1, y2:1, stop:0 white, stop:0.35 white, stop:0.6 #1055e8);
+}
+.QPushButton#ApplyButton
+{
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 51px;
+    border-width: 4px;
+    border-style: outset;
+    border-color: #606060;
+
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #dddddd, stop:1 #10b410);
+    color: white;
+    font-size: 52px;
+}
+
+.QPushButton#ApplyButton:hover
+{
+    font-size: 52px;
+    color: #108010;
+    border-color: #20ffff;
+
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #ffffdd, stop:1 #60ff36);
+}
+
+.QPushButton#ApplyButton:pressed
+{
+    background-color: qradialgradient(cx:0.5, cy:1, radius: 0.8,
+                    fx:0.5, fy:1.0, stop:0 #bbbbbb, stop:1 #10b410);
+    color: #a0ffff;
+    font-size: 52px;
+    border-color: #606060;
+}
+
+.QLineEdit#SourcePathEdit {
+    min-height: 30px;
+    min-width: 70px;
+    border-radius: 8px;
+    border: 3px solid #0089FF;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.QSpinBox#SpinBoxMin, #SpinBoxMax
+{
+    min-height: 30px;
+    min-width: 70px;
+    border: 3px solid #0089FF;
+    border-radius: 7px;
+    selection-background-color: black;
+    font-size: 18px;
+}
+
+.QSpinBox#SpinBoxMin:up-arrow, #SpinBoxMax:up-arrow
+{
+    background-image: url(:/Images/up.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.QSpinBox#SpinBoxMin:down-arrow, #SpinBoxMax:down-arrow
+{
+    background-image: url(:/Images/down.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.QSpinBox#SpinBoxMin:up-button, #SpinBoxMax:up-button
+{
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: #606060;
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #E0FFFF, stop:1 #87CEEB);
+}
+
+.QSpinBox#SpinBoxMin:up-button:hover, #SpinBoxMax:up-button:hover
+{
+    border-color: #FFFF00;
+}
+
+.QSpinBox#SpinBoxMin:up-button:pressed, #SpinBoxMax:up-button:pressed
+{
+    background-color: #E6E6FA;
+    border-color: #606060;
+}
+
+.QSpinBox#SpinBoxMin:down-button, #SpinBoxMax:down-button
+{
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: #606060;
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #E0FFFF, stop:1 #87CEEB);
+}
+
+.QSpinBox#SpinBoxMin:down-button:hover, #SpinBoxMax:down-button:hover
+{
+    border-color: #FFFF00;
+}
+
+.QSpinBox#SpinBoxMin:down-button:pressed, #SpinBoxMax:down-button:pressed
+{
+    background-color: #E6E6FA;
+    border-color: #606060;
+}
+
+.QComboBox#BehaviorCombo
+{
+    border: 3px solid #0089FF;
+    border-radius: 7px;
+    padding: 1px 18px 1px 3px;
+    min-height: 20px;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                fx:0.1, fy:0.1, stop:0 #ffffff, stop:1 #3399ff);
+
+    font-size: 18px;
+}
+
+.QComboBox#BehaviorCombo:disabled
+{
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                fx:0.1, fy:0.1, stop:0 #ffffff, stop:1 #c1c1d7);
+}
+
+.QComboBox#BehaviorCombo:hover
+{
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                fx:0.1, fy:0.1, stop:0 #ffffff, stop:1 #a4c0ff);
+}
+
+.QComboBox#BehaviorCombo QAbstractItemView
+{
+    selection-color: black;
+    selection-background-color: qradialgradient(cx:0, cy:0, radius: 0.9,
+                                    fx:0.1, fy:0.1, stop:0 #ffffff, stop:1 #a4c0ff);
+}
+
+.QComboBox#BehaviorCombo:drop-down
+{
+    border-radius: 5px;
+    min-width: 25px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: #606060;
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+            fx:0.5, fy:0.0, stop:0 #E0FFFF, stop:1 #87CEEB);
+}
+
+.QComboBox#BehaviorCombo:drop-down:hover
+{
+    border-color: #FFFF00;
+}
+
+.QComboBox#BehaviorCombo:drop-down:pressed
+{
+    background-color: #E6E6FA;
+    border-color: #606060;
+}
+
+.QComboBox#BehaviorCombo:down-arrow
+{
+    background-image: url(:/Images/down_arrow.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 18px;
+    border-radius: 9px;
+}
+
+.QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop: 0 #66e, stop: 1 #bbf);
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #bbf, stop: 1 #55f);
+border: 3px solid #0089FF;
+height: 10px;
+border-radius: 4px;
+}
+
+.QSlider::add-page:horizontal {
+background: #fff;
+border: 3px solid #0089FF;
+height: 10px;
+border-radius: 4px;
+}
+
+.QSlider::handle:horizontal {
+background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+            fx:0.5, fy:0.0, stop:0 #E0FFFF, stop:1 #87CEEB);
+border-width: 3px;
+border-style: outset;
+border-color: #606060;
+width: 13px;
+margin-top: -2;
+margin-bottom: -2;
+border-radius: 4px;
+}
+
+.QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border-color: #FFFF00;
+border-radius: 4px;
+}
+
+.QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+.QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+.QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}
+
+.QPushButton#PathButton
+{
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid #107efa;
+    border-radius: 3px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0.7, y2:0.7,
+                            stop:0 #afe5ff, stop:1 #208efe );
+    font-size: 13px;
+}
+.QPushButton#PathButton:pressed, .QPushButton#PathButton:hover:pressed
+{
+    border-radius: 3px;
+    border: 1px solid #104eca;
+    background-color: #208ede;
+    font-size: 13px;
+}
+
+.QPushButton#PathButton:disabled
+{
+    background-color: #cccccc;
+    color: #808080;
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+}
+
+.QPushButton#PathButton:hover
+{
+    border: 2px solid cyan;
+    border-radius: 3px;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                            fx:0.1, fy:0.1, stop:0 #d3f9ff, stop:1 #73c9ff);
+}
+
+

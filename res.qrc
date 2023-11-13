@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/Images/backIcon.png</file>
+        <file>Resources/Images/down.png</file>
+        <file>Resources/Images/down_arrow.png</file>
+        <file>Resources/Images/exitIcon.png</file>
+        <file>Resources/Images/ok.png</file>
+        <file>Resources/Images/power.png</file>
+        <file>Resources/Images/question.png</file>
+        <file>Resources/Images/RecToFile.png</file>
+        <file>Resources/Images/settings.png</file>
+        <file>Resources/Images/triplepoint.png</file>
+        <file>Resources/Images/up.png</file>
+        <file>Resources/Styles/MainTitle.css</file>
+        <file>Resources/Styles/PlotWindow.css</file>
+        <file>Resources/Styles/SettingsWindow.css</file>
+        <file>Resources/Styles/StartWindow.css</file>
+    </qresource>
+</RCC>

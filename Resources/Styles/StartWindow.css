@@ -1,0 +1,44 @@
+QWidget#startwindow
+{
+    background-color: qlineargradient(x1:1, y1:0,
+            x2:1, y2:1, stop:0 white, stop:0.35 white, stop:0.6 #1055e8);
+}
+
+.QLabel#SettingsLabel, #StartLabel
+{
+    color: red;
+    font-size: 32px;
+}
+
+.QPushButton#SettingButton, #StartButton
+{
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 51px;
+    border-width: 4px;
+    border-style: outset;
+    border-color: #606060;
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #dddddd, stop:1 #10b410);
+    color: white;
+    font-size: 52px;
+}
+
+.QPushButton#SettingButton:hover, #StartButton:hover
+{
+    font-size: 52px;
+    color: #108010;
+    border-color: #20ffff;
+
+    background-color: qradialgradient(cx:0.5, cy:0, radius: 0.6,
+                fx:0.5, fy:0.0, stop:0 #ffffdd, stop:1 #60ff36);
+}
+
+.QPushButton#SettingButton:pressed, #StartButton:pressed
+{
+    background-color: qradialgradient(cx:0.5, cy:1, radius: 0.8,
+                    fx:0.5, fy:1.0, stop:0 #bbbbbb, stop:1 #10b410);
+    color: #a0ffff;
+    font-size: 52px;
+    border-color: #606060;
+}

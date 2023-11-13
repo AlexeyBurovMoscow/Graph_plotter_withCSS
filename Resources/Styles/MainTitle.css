@@ -1,0 +1,74 @@
+QLabel#MainTitle
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff5ff, stop:0.6 #fdfab6);
+    font: 16px white;
+    padding: 5px;
+    color: black;
+}
+
+
+.QPushButton#bnExit
+{
+    border: 1px solid #f01020;
+    border-radius: 14px;
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                    stop:0 #efd5fb, stop:1 #f01e2e);
+    font-size: 16px;
+}
+
+
+.QPushButton#bnExit:hover
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                            stop:0 #ededfd, stop:1 #ff5e7e);
+    border: 2px solid red;
+}
+
+.QPushButton#bnBack
+{
+    border: 1px solid #107efa;
+    border-radius: 14px;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                            fx:0.1, fy:0.1, stop:0 white, stop:1 #3399ff);
+    font-size: 16px;
+    qproperty-iconSize: 21px;
+}
+
+.QPushButton#bnBack:hover
+{
+    border: 2px solid cyan;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                  fx:0.1, fy:0.1, stop:0 white, stop:1 #90c5ff);
+}
+
+.QPushButton#bnHelp
+{
+    border: 1px solid #107efa;
+    border-radius: 14px;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                            fx:0.1, fy:0.1, stop:0 white, stop:1 #3399ff);
+    font-size: 16px;
+    qproperty-iconSize: 21px;
+}
+
+.QPushButton#bnHelp:hover
+{
+    border: 2px solid cyan;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+                  fx:0.1, fy:0.1, stop:0 white, stop:1 #90c5ff);
+}
+
+.QPushButton#bnHelp:checked
+{
+    border: 1px solid #1a9910;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+            fx:0.1, fy:0.1, stop:0 white, stop:1 #1add10 );
+}
+
+.QPushButton#bnHelp:checked:hover
+{
+    border-color: #5add60;
+    background-color: qradialgradient(cx:0, cy:0, radius: 1,
+            fx:0.1, fy:0.1, stop:0 white, stop:1 #1aff10 );
+}
+
